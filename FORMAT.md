@@ -2,6 +2,17 @@
 
 This is a very early WIP.
 
+# About this file
+
+The container format for the JavaScript Binary AST.
+
+The container format is mostly neutral wrt the underlying grammar.
+The grammar itself is defined and maintained separately, at
+[https://github.com/binast/ecmascript-binary-ast](https://github.com/binast/ecmascript-binary-ast).
+
+In this file, we attempt to discuss both the binary layout
+and the algorithms used to map the grammar to the layout.
+
 # About this format
 
 **TBD**
